@@ -16,9 +16,10 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   /* margin:2rem 10rem; */
-  width: 60%;
+  width: 65%;
 }
 
 .main {
@@ -30,7 +31,7 @@ body {
 .header {
   text-align: center;
   margin: 0rem auto;
-  font-size: 1.75rem;
+  font-size: 1.85rem;
   font-weight: 200;
 }
 
@@ -41,9 +42,9 @@ body {
 }
 
 .subheading {
-  width: 50%;
+  width: 48%;
   margin: 0rem auto;
-  font-size: 0.73rem;
+  font-size: 0.78rem;
   font-weight: 400;
   color: hsl(229, 6%, 66%);
   margin-bottom: 3rem;
@@ -66,15 +67,15 @@ body {
 .item {
   background-color: #fff;
   color: hsl(234, 12%, 34%);
-  padding: 1.25rem 1.5rem;
+  padding: 1.7rem 1.85rem;
   overflow: hidden;
-  border-radius: 2.5%;
+  border-radius: 2%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   width: 100%;
 }
 
 .item img {
-  width: 3rem;
+  width: 3.25rem;
   float: right;
 }
 
@@ -85,8 +86,8 @@ body {
 
 .text {
   color: hsl(229, 6%, 66%);
-  font-size: 0.6rem;
-  margin-bottom: 1.5rem;
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
 }
 
 /* Style des bordures haut */
