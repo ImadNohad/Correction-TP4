@@ -19,7 +19,7 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   /* margin:2rem 10rem; */
-  width: 65%;
+  width: 66%;
 }
 
 .main {
@@ -67,7 +67,7 @@ body {
 .item {
   background-color: #fff;
   color: hsl(234, 12%, 34%);
-  padding: 1.7rem 1.85rem;
+  padding: 1.65rem 1.75rem;
   overflow: hidden;
   border-radius: 2%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -75,7 +75,7 @@ body {
 }
 
 .item img {
-  width: 3.25rem;
+  width: 3.15rem;
   float: right;
 }
 
@@ -86,7 +86,7 @@ body {
 
 .text {
   color: hsl(229, 6%, 66%);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   margin-bottom: 2rem;
 }
 
