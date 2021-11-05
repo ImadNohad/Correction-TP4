@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 98%);
+  max-width: 1440px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 2rem;
+  /* margin:2rem 10rem; */
+  width: 60%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  margin: 0rem auto;
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.75rem;
+}
+
+.subheading {
+  width: 50%;
+  margin: 0rem auto;
+  font-size: 0.73rem;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 3rem;
+}
+
+.col {
+  width: 100%;
+}
+
+/* Selection des éléments .col qui sont précédés par un autre élément .col */
+.col + .col {
+  margin-left: 1.5rem;
+}
+
+/* Selection des éléments .item qui sont précédés par un autre élément .item */
+.item + .item {
+  margin-top: 1.5rem;
+}
+
+.item {
+  background-color: #fff;
+  color: hsl(234, 12%, 34%);
+  padding: 1.25rem 1.5rem;
+  overflow: hidden;
+  border-radius: 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 100%;
+}
+
+.item img {
+  width: 3rem;
+  float: right;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Style des bordures haut */
+.bred {
+  border-top: hsl(0, 78%, 62%) 4px solid;
+}
+
+.bcyan {
+  border-top: hsl(180, 62%, 55%) 4px solid;
+}
+
+.borange {
+  border-top: hsl(34, 97%, 64%) 4px solid;
+}
+
+.bblue {
+  border-top: hsl(212, 86%, 64%) 4px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 1.25rem;
+    margin: 0;
+    width: 100%;
+  }
+
+  .subheading {
+    margin: 0;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  .col {
+    margin-bottom: 2rem;
+  }
+
+  .item {
+    margin: 0;
+  }
+
+  .col + .col {
+    margin-left: 0rem;
+  }
+}
